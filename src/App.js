@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './styles/App.css';
 import data from './Mockup/mock-data.json'
-import ShipsCarousele from './ShipView/ShipsView';
+import ShipsScrollView from './ShipView/ShipsView';
 
 function App() {
   console.log(data);
@@ -13,7 +13,7 @@ function App() {
           Ships Carousele
         </p>
         <div>
-          <ShipsCarousele/>
+          <ShipsScrollView/>
         </div>
       </header>
     </div>
