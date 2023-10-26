@@ -1,0 +1,5 @@
+.scrollContainer{
+    height: '500px';
+    overflow-y: scroll;
+    white-space: nowrap;
+}

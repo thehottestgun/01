@@ -1,0 +1,20 @@
+[
+    {
+        "CodeName":"Razor",
+        "Size":"3",
+        "EnginePower":"50000",
+        "Capacity":"1000"
+    },
+    {
+        "CodeName":"Jade",
+        "Size":"1",
+        "EnginePower":"60000",
+        "Capacity":"10"
+    },
+    {
+        "CodeName":"Moon",
+        "Size":"8",
+        "EnginePower":"100000",
+        "Capacity":"10000"
+    }
+]
