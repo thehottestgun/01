@@ -1,5 +1,10 @@
-.scrollContainer{
-    height: '500px';
-    overflow-y: scroll;
-    white-space: nowrap;
+.scrollContainer {
+  height: 200px;
+  width: 100%;
+  overflow-y: scroll;
+  white-space: nowrap;
+}
+
+.shipRecord {
+    background-color: purple;
 }

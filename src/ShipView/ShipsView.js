@@ -1,11 +1,13 @@
 import data from "../Mockup/mock-data.json";
+import '../styles/shipsView.css'
 
 function ShipCard({ item }) {
   return (
     <div className="shipRecord">
-      <h4>
-        {item.CodeName} {item.EnginePower} {item.Capacity} {item.Size}
-      </h4>
+      <h4>Name: {item.CodeName}</h4>
+      <h4>Power: {item.EnginePower}</h4>
+      <h4>Capacity: {item.Capacity}</h4>
+      <h4>Size: {item.Size}</h4>
     </div>
   );
 }
@@ -16,7 +18,7 @@ export default function ShipsScrollView() {
       <div className="scrollContainer">
         {data.map((item) => {
           return (
-            <div className="scrollItem">
+            <div key={item.CodeName} className="scrollItem">
               <ShipCard item={item} />
             </div>
           );
